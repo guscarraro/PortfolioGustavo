@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
+
 import VanillaTilt from "vanilla-tilt";
 import img from "../src/assets/node.svg";
 
@@ -17,6 +17,7 @@ import {
   StyledSection2,
   StyledHeader,
   SectionSkill,
+  // StyledSectionCompetencias,
 } from "./App.js";
 
 import "./App.js";
@@ -71,7 +72,7 @@ function App() {
                 Olá,
                 <br />
                 Eu sou Gustavo,
-                <br /> web devesenvolvedor
+                <br /> desenvolvedor web
               </h1>
             </div>
             <StyledDivDescription>
@@ -79,10 +80,12 @@ function App() {
                 <p className="Description">Bio</p>
                 <p>
                   Meu nome é Gustavo Henrique Carraro e sou um desenvolvedor
-                  Front-end de 25 anos de idade, moro em Curitiba-PR Estou em
-                  constante busca pelo aprimoramento de minhas habilidades e
-                  conhecimentos em programação, e me dedico diariamente para me
-                  tornar um desenvolvedor Full-stack até setembro deste ano.
+                  Front-end de 25 anos de idade, moro em Curitiba-PR. Hoje estou
+                  cursando Engenharia de Software na Universidade Positivo,
+                  estou no 3º periodo, em constante busca pelo aprimoramento de
+                  minhas habilidades e conhecimentos em programação, e me dedico
+                  diariamente para me tornar um desenvolvedor Full-stack até
+                  setembro deste ano na Kenzie Academy Brazil!
                 </p>
               </div>
             </StyledDivDescription>
@@ -91,29 +94,59 @@ function App() {
       </StyledSectionContainer>
       <div>
         <SectionSkill>
-          <h3>Skills & Experiencia</h3>
           <div>
-            <ul>
+            <h3>Skills & Experiencia</h3>
+
+            {/* <StyledSectionCompetencias>
+              <div className="Front">
+                <p>Front-End</p>
+                <div className="BarraNvF">
+                  <p className="nivel2F"></p>
+                  <p className="nivel2F"></p>
+                  <p className="nivel2F"></p>
+                </div>
+              </div>
+              <div className="React">
+                <p className="BarraNvR">React</p>
+                <div>
+                  <p className="nivel1R"></p>
+                  <p className="nivel2R"></p>
+                  <p className="nivel2R"></p>
+                </div>
+              </div>
+              <div className="Back">
+                <p>Back-End</p>
+                <div className="BarraNvB">
+                  <p className="nivel2R"></p>
+                  <p className="nivel2R"></p>
+                  <p className="nivel2R"></p>
+                </div>
+              </div>
+            </StyledSectionCompetencias> */}
+            <ul className="animate__animated animate__lightSpeedInLeft">
               <li>
-                <p className="ReactIMG">React</p>
+                <p className="ReactIMG"></p>
               </li>
               <li>
-                <p className="JSIMG">JavaScript</p>
+                <p className="JSIMG"></p>
+              </li>
+              {/* <li>
+                <p className="SQL"></p>
+              </li> */}
+              <li>
+                <p className="HTML5IMG"></p>
               </li>
               <li>
-                <p className="HTML5IMG">HTML5</p>
+                <p className="NODEIMG"></p>
               </li>
               <li>
-                <img src={img} className="NODEIMG"></img>
-              </li>
-              <li className="CIMG">
-                <p>C</p>
+                <p className="CIMG"></p>
               </li>
               <li>
-                <p className="JAVAIMG">JAVA</p>
+                <p className="JAVAIMG"></p>
               </li>
               <li>
-                <p className="CSSIMG">CSS3</p>
+                <p className="CSSIMG"></p>
               </li>
             </ul>
           </div>
@@ -128,21 +161,6 @@ function App() {
               </h2>
             </div>
             <ul className="animate__animated animate__lightSpeedInLeft">
-              <li className="card StyledHomeYou">
-                <div>
-                  {/* <img src="../src/assets/HomeYou.png"></img> */}
-                  <h4> HomeYou</h4>
-                  <p>
-                    Projeto para alugueis de casas, desenvolvido no mesmo
-                    formato da AirBnb. Foi uma jornada muito intensa, cheia de
-                    desafios e de muito aprendizado. Utilizei diversas
-                    ferramentas no desenvolvimento, como o React, CSS, JS, TS,
-                    HTML, API, JSON.
-                  </p>
-                  <a href="#">Mais informacoes</a>
-                </div>
-              </li>
-
               <li className="card StyledHamburgueria">
                 <div>
                   {/* <img src="../src/assets/BurguerKenzie.png"></img> */}
@@ -153,7 +171,18 @@ function App() {
                     usuario. Utilizei diversas ferramentas no desenvolvimento,
                     como o React, CSS, JS, TS, HTML, API, JSON.
                   </p>
-                  <a href="#">Mais informacoes</a>
+                  <a
+                    target="_blank"
+                    href="https://react-entrega-template-hamburgueria-da-kenzie-guscarraro.vercel.app/"
+                  >
+                    Acesse o site aqui!
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-template-hamburgueria-da-kenzie-guscarraro"
+                  >
+                    Repositorio GitHub!
+                  </a>
                 </div>
               </li>
 
@@ -166,8 +195,44 @@ function App() {
                     cliente, para melhor planejamento de sua rotina. Utilizei
                     diversas ferramentas no desenvolvimento, como o React, CSS,
                     JS, TS, HTML, API, JSON.
-                    <a href="#">Mais informacoes</a>
+                    <a
+                      target="_blank"
+                      href="https://react-entrega-s1-template-nu-kenzie-guscarraro-7jv1ilj5s.vercel.app/"
+                    >
+                      Acesse o site aqui!
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-template-nu-kenzie-guscarraro"
+                    >
+                      Repositorio GitHub!
+                    </a>
                   </p>
+                </div>
+              </li>
+              <li className="card StyledHomeYou">
+                <div>
+                  {/* <img src="../src/assets/HomeYou.png"></img> */}
+                  <h4> HomeYou</h4>
+                  <p>
+                    Projeto para alugueis de casas, desenvolvido no mesmo
+                    formato da AirBnb. Foi uma jornada muito intensa, cheia de
+                    desafios e de muito aprendizado. Utilizei diversas
+                    ferramentas no desenvolvimento, como o React, CSS, JS, TS,
+                    HTML, API, JSON.
+                  </p>
+                  <a
+                    target="_blank"
+                    href="https://home-you-kenzie-m3-nmw9ui2bi-guscarraro-hotmailcom.vercel.app/"
+                  >
+                    Acesse o site aqui!
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://github.com/HomeYou-Kenzie-Academy-t15-g4/HomeYou-Kenzie-m3"
+                  >
+                    Repositorio GitHub!
+                  </a>
                 </div>
               </li>
             </ul>
