@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 import VanillaTilt from "vanilla-tilt";
 import img from "../src/assets/node.svg";
+import logo from "./assets/GC.png";
 
 import {
   StyledBody,
@@ -39,7 +40,7 @@ function App() {
       <StyledHeader>
         <div>
           <img
-            src="../src/assets/GC.png"
+            src={logo}
             className="animate__animated animate__lightSpeedInLeft"
             alt=""
           />

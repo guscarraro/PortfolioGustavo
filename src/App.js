@@ -1,6 +1,29 @@
 import styled from "styled-components";
 import "animate.css";
 import homeyou from "./assets/HomeYou.png";
+import HAMBUGUERIA from "./assets/BurguerKenzie.png";
+import NUKENZIE from "./assets/NuKenzie.png";
+import git1 from "./assets/icons8-github-128 (1).png";
+import WHATS from "./assets/zap1.png";
+import linkd1 from "./assets/icons8-linkedin-128.png";
+import linkd2 from "./assets/LI2.png";
+import sect1 from "./assets/gifSiteProprio.gif";
+import sect2 from "./assets/4krosaAzul.gif";
+import node1 from "./assets/node.svg";
+import node2 from "./assets/node-js.svg";
+import react1 from "./assets/reactHOVER.png";
+import react2 from "./assets/icons8-react-96.png";
+import C1 from "./assets/c2.png";
+import C2 from "./assets/c.png";
+import CSS1 from "./assets/icons8-css3.svg";
+import CSS2 from "./assets/icons8-css3-144.png";
+import JAVA1 from "./assets/java1.png";
+import JAVA2 from "./assets/java3.png";
+import JS1 from "./assets/icons8-javascript.svg";
+import JS2 from "./assets/icons8-javascript-96.png";
+import HTML from "./assets/icons8-html-96.png";
+import HTML2 from "./assets/icons8-html-96 (2).png";
+import ZAP1 from "./assets/zap2.png";
 
 export const StyledBody = styled.div`
   display: flex;
@@ -62,7 +85,7 @@ export const StyledDivDescription = styled.div`
 
 export const StyledGitHub = styled.a`
   /* background-color: red; */
-  background-image: url("../../../src/assets/icons8-github-128 (1).png");
+  background-image: url(${git1});
   display: flex;
   background-repeat: no-repeat;
   align-items: center;
@@ -74,7 +97,7 @@ export const StyledGitHub = styled.a`
 
 export const StyledLinkedin = styled.a`
   /* background-color: red; */
-  background-image: url("../../../src/assets/icons8-linkedin-128.png");
+  background-image: url(${linkd1});
   display: flex;
   background-repeat: no-repeat;
   align-items: center;
@@ -89,7 +112,7 @@ export const StyledSectionContainer = styled.section`
   align-items: center;
   margin: 0;
   padding: 0;
-  background-image: url("../../../src/assets/gifSiteProprio.gif");
+  background-image: url(${sect1});
   background-repeat: no-repeat;
   align-items: center;
   width: 100%;
@@ -103,7 +126,7 @@ export const StyledSection2 = styled.section`
   align-items: center;
   margin: 0;
   padding: 0;
-  background-image: url("../../../src/assets/4krosaAzul.gif");
+  background-image: url(${sect2});
   /* background-color: black; */
   background-repeat: no-repeat;
   align-items: center;
@@ -155,7 +178,7 @@ export const SectionSkill = styled.section`
       height: 90px;
     }
     .NODEIMG {
-      background-image: url("../../../src/assets/node.svg");
+      background-image: url(${node1});
       width: 90px;
       height: 90px;
       position: relative;
@@ -163,27 +186,27 @@ export const SectionSkill = styled.section`
     }
 
     .NODEIMG:hover {
-      background-image: url("../../../src/assets/node-js.svg");
+      background-image: url(${node2});
     }
     .ReactIMG:hover {
-      background-image: url("../../../src/assets/reactHOVER.png");
+      background-image: url(${react1});
     }
     .CIMG {
-      background-image: url("../../../src/assets/c2.png");
+      background-image: url(${C1});
       width: 90px;
       height: 90px;
       position: relative;
       background-size: 100% 100%;
     }
     .CIMG:hover {
-      background-image: url("../../../src/assets/c.png");
+      background-image: url(${C2});
       width: 90px;
       height: 90px;
       position: relative;
       background-size: 100% 100%;
     }
     .CSSIMG {
-      background-image: url("../../../src/assets/icons8-css3.svg");
+      background-image: url(${CSS1});
       /* background-color: black; */
       /* color: ; */
       width: 90px;
@@ -192,14 +215,14 @@ export const SectionSkill = styled.section`
       background-size: 100% 100%;
     }
     .CSSIMG:hover {
-      background-image: url("../../../src/assets/icons8-css3-144.png");
+      background-image: url(${CSS2});
       width: 90px;
       height: 90px;
       position: relative;
       background-size: 100% 100%;
     }
     .JAVAIMG {
-      background-image: url("../../../src/assets/java1.png");
+      background-image: url(${JAVA1});
       /* background-color: black; */
       /* color: ; */
       width: 90px;
@@ -208,7 +231,7 @@ export const SectionSkill = styled.section`
       background-size: 100% 100%;
     }
     .JAVAIMG:hover {
-      background-image: url("../../../src/assets/java3.png");
+      background-image: url(${JAVA2});
       width: 90px;
       height: 90px;
       position: relative;
@@ -231,7 +254,7 @@ export const SectionSkill = styled.section`
   }
 
   .ReactIMG {
-    background-image: url("../../../src/assets/icons8-react-96.png");
+    background-image: url(${react2});
     /* background-color: black; */
     /* color: ; */
     width: 90px;
@@ -241,7 +264,7 @@ export const SectionSkill = styled.section`
   }
 
   .JSIMG {
-    background-image: url("../../../src/assets/icons8-javascript.svg");
+    background-image: url(${JS1});
     /* background-color: black; */
     /* color: ; */
     width: 90px;
@@ -250,22 +273,22 @@ export const SectionSkill = styled.section`
     background-size: 100% 100%;
   }
   .JSIMG:hover {
-    background-image: url("../../../src/assets/icons8-javascript-96.png");
+    background-image: url(${JS2});
   }
   .HTML5IMG {
-    background-image: url("../../../src/assets/icons8-html-96.png");
+    background-image: url(${HTML});
     width: 90px;
     height: 90px;
     position: relative;
     background-size: 100% 100%;
   }
   .HTML5IMG:hover {
-    background-image: url("../../../src/assets/icons8-html-96 (2).png");
+    background-image: url(${HTML2});
   }
 `;
 export const StyledWhats = styled.a`
   /* background-color: red; */
-  background-image: url("../../../src/assets/zap2.png");
+  background-image: url(${ZAP1});
   display: flex;
   background-repeat: no-repeat;
   align-items: center;
@@ -364,12 +387,12 @@ export const StyledHeader = styled.header`
     height: 50px;
   }
   .link:hover {
-    background-image: url("../../../src/assets/LI2.png");
+    background-image: url(${linkd2});
     width: 50px;
     height: 50px;
   }
   .whats:hover {
-    background-image: url("../../../src/assets/zap1.png");
+    background-image: url(${WHATS});
     width: 40px;
     height: 40px;
   }
@@ -417,7 +440,7 @@ export const StyledDivCards = styled.div`
       align-items: center;
       border-top: 1px solid rgba(255, 255, 255, 0.5);
       border-left: 1px solid rgba(255, 255, 255, 0.5);
-      background-image: url("../../../src/assets/BurguerKenzie.png");
+      background-image: url(${HAMBUGUERIA});
       background-size: 200% 100%;
 
       opacity: 0.5;
@@ -466,7 +489,7 @@ export const StyledDivCards = styled.div`
       align-items: center;
       border-top: 1px solid rgba(255, 255, 255, 0.5);
       border-left: 1px solid rgba(255, 255, 255, 0.5);
-      background-image: url("../../../src/assets/NuKenzie.png");
+      background-image: url(${NUKENZIE});
       background-size: 200% 100%;
 
       opacity: 0.5;
