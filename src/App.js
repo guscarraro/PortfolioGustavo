@@ -61,7 +61,7 @@ export const StyledDivDescription = styled.div`
 
 export const StyledGitHub = styled.a`
   /* background-color: red; */
-  background-image: url("../../src/assets/icons8-github-128 (1).png");
+  background-image: url("../../../src/assets/icons8-github-128 (1).png");
   display: flex;
   background-repeat: no-repeat;
   align-items: center;
@@ -73,7 +73,7 @@ export const StyledGitHub = styled.a`
 
 export const StyledLinkedin = styled.a`
   /* background-color: red; */
-  background-image: url("../../src/assets/icons8-linkedin-128.png");
+  background-image: url("../../../src/assets/icons8-linkedin-128.png");
   display: flex;
   background-repeat: no-repeat;
   align-items: center;
@@ -88,7 +88,7 @@ export const StyledSectionContainer = styled.section`
   align-items: center;
   margin: 0;
   padding: 0;
-  background-image: url("../../src/assets/gifSiteProprio.gif");
+  background-image: url("../../../src/assets/gifSiteProprio.gif");
   background-repeat: no-repeat;
   align-items: center;
   width: 100%;
@@ -102,7 +102,7 @@ export const StyledSection2 = styled.section`
   align-items: center;
   margin: 0;
   padding: 0;
-  background-image: url("../../src/assets/4krosaAzul.gif");
+  background-image: url("../../../src/assets/4krosaAzul.gif");
   /* background-color: black; */
   background-repeat: no-repeat;
   align-items: center;
@@ -154,7 +154,7 @@ export const SectionSkill = styled.section`
       height: 90px;
     }
     .NODEIMG {
-      background-image: url("../../src/assets/node.svg");
+      background-image: url("../../../src/assets/node.svg");
       width: 90px;
       height: 90px;
       position: relative;
@@ -162,27 +162,27 @@ export const SectionSkill = styled.section`
     }
 
     .NODEIMG:hover {
-      background-image: url("../../src/assets/node-js.svg");
+      background-image: url("../../../src/assets/node-js.svg");
     }
     .ReactIMG:hover {
-      background-image: url("../../src/assets/reactHOVER.png");
+      background-image: url("../../../src/assets/reactHOVER.png");
     }
     .CIMG {
-      background-image: url("../../src/assets/c2.png");
+      background-image: url("../../../src/assets/c2.png");
       width: 90px;
       height: 90px;
       position: relative;
       background-size: 100% 100%;
     }
     .CIMG:hover {
-      background-image: url("../../src/assets/c.png");
+      background-image: url("../../../src/assets/c.png");
       width: 90px;
       height: 90px;
       position: relative;
       background-size: 100% 100%;
     }
     .CSSIMG {
-      background-image: url("../../src/assets/icons8-css3.svg");
+      background-image: url("../../../src/assets/icons8-css3.svg");
       /* background-color: black; */
       /* color: ; */
       width: 90px;
@@ -191,14 +191,14 @@ export const SectionSkill = styled.section`
       background-size: 100% 100%;
     }
     .CSSIMG:hover {
-      background-image: url("../../src/assets/icons8-css3-144.png");
+      background-image: url("../../../src/assets/icons8-css3-144.png");
       width: 90px;
       height: 90px;
       position: relative;
       background-size: 100% 100%;
     }
     .JAVAIMG {
-      background-image: url("../../src/assets/java1.png");
+      background-image: url("../../../src/assets/java1.png");
       /* background-color: black; */
       /* color: ; */
       width: 90px;
@@ -207,21 +207,21 @@ export const SectionSkill = styled.section`
       background-size: 100% 100%;
     }
     .JAVAIMG:hover {
-      background-image: url("../../src/assets/java3.png");
+      background-image: url("../../../src/assets/java3.png");
       width: 90px;
       height: 90px;
       position: relative;
       background-size: 100% 100%;
     }
     /* .SQL {
-      background-image: url("../../src/assets/icons8-mysql-100.png.png");
+      background-image: url("../../../src/assets/icons8-mysql-100.png.png");
       width: 90px;
       height: 90px;
       position: relative;
       background-size: 100% 100%;
     }
     .SQL:hover {
-      background-image: url("../../src/assets/icons8-mysql-100.png (1).png");
+      background-image: url("../../../src/assets/icons8-mysql-100.png (1).png");
       width: 90px;
       height: 90px;
       position: relative;
@@ -230,7 +230,7 @@ export const SectionSkill = styled.section`
   }
 
   .ReactIMG {
-    background-image: url("../../src/assets/icons8-react-96.png");
+    background-image: url("../../../src/assets/icons8-react-96.png");
     /* background-color: black; */
     /* color: ; */
     width: 90px;
@@ -240,7 +240,7 @@ export const SectionSkill = styled.section`
   }
 
   .JSIMG {
-    background-image: url("../../src/assets/icons8-javascript.svg");
+    background-image: url("../../../src/assets/icons8-javascript.svg");
     /* background-color: black; */
     /* color: ; */
     width: 90px;
@@ -249,22 +249,22 @@ export const SectionSkill = styled.section`
     background-size: 100% 100%;
   }
   .JSIMG:hover {
-    background-image: url("../../src/assets/icons8-javascript-96.png");
+    background-image: url("../../../src/assets/icons8-javascript-96.png");
   }
   .HTML5IMG {
-    background-image: url("../../src/assets/icons8-html-96.png");
+    background-image: url("../../../src/assets/icons8-html-96.png");
     width: 90px;
     height: 90px;
     position: relative;
     background-size: 100% 100%;
   }
   .HTML5IMG:hover {
-    background-image: url("../../src/assets/icons8-html-96 (2).png");
+    background-image: url("../../../src/assets/icons8-html-96 (2).png");
   }
 `;
 export const StyledWhats = styled.a`
   /* background-color: red; */
-  background-image: url("../../src/assets/zap2.png");
+  background-image: url("../../../src/assets/zap2.png");
   display: flex;
   background-repeat: no-repeat;
   align-items: center;
@@ -358,17 +358,17 @@ export const StyledHeader = styled.header`
   }
 
   .fake:hover {
-    /* background-image: url("../../src/assets/icons8-github-128 (3).png"); */
+    /* background-image: url("../../../src/assets/icons8-github-128 (3).png"); */
     width: 50px;
     height: 50px;
   }
   .link:hover {
-    background-image: url("../../src/assets/LI2.png");
+    background-image: url("../../../src/assets/LI2.png");
     width: 50px;
     height: 50px;
   }
   .whats:hover {
-    background-image: url("../../src/assets/zap1.png");
+    background-image: url("../../../src/assets/zap1.png");
     width: 40px;
     height: 40px;
   }
@@ -416,7 +416,7 @@ export const StyledDivCards = styled.div`
       align-items: center;
       border-top: 1px solid rgba(255, 255, 255, 0.5);
       border-left: 1px solid rgba(255, 255, 255, 0.5);
-      background-image: url("../../src/assets/BurguerKenzie.png");
+      background-image: url("../../../src/assets/BurguerKenzie.png");
       background-size: 200% 100%;
 
       opacity: 0.5;
@@ -465,7 +465,7 @@ export const StyledDivCards = styled.div`
       align-items: center;
       border-top: 1px solid rgba(255, 255, 255, 0.5);
       border-left: 1px solid rgba(255, 255, 255, 0.5);
-      background-image: url("../../src/assets/NuKenzie.png");
+      background-image: url("../../../src/assets/NuKenzie.png");
       background-size: 200% 100%;
 
       opacity: 0.5;
@@ -514,7 +514,7 @@ export const StyledDivCards = styled.div`
       align-items: center;
       border-top: 1px solid rgba(255, 255, 255, 0.5);
       border-left: 1px solid rgba(255, 255, 255, 0.5);
-      background-image: url("../../src/assets/HomeYou.png");
+      background-image: url("../../../src/assets/HomeYou.png");
       background-size: 200% 100%;
 
       opacity: 0.5;
