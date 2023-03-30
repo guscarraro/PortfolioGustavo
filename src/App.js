@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import "animate.css";
+import homeyou from "./assets/HomeYou.png";
 
 export const StyledBody = styled.div`
   display: flex;
@@ -514,7 +515,7 @@ export const StyledDivCards = styled.div`
       align-items: center;
       border-top: 1px solid rgba(255, 255, 255, 0.5);
       border-left: 1px solid rgba(255, 255, 255, 0.5);
-      background-image: url("../../../src/assets/HomeYou.png");
+      background-image: url(${homeyou});
       background-size: 200% 100%;
 
       opacity: 0.5;
