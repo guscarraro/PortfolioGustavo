@@ -174,13 +174,13 @@ function App() {
                   </p>
                   <a
                     target="_blank"
-                    href="https://react-entrega-template-hamburgueria-da-kenzie-guscarraro.vercel.app/"
+                    href="https://create-a-new-repository-from-kenzie-burguer-v2-templ-amxcahqom.vercel.app/"
                   >
                     Acesse o site aqui!
                   </a>
                   <a
                     target="_blank"
-                    href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-template-hamburgueria-da-kenzie-guscarraro"
+                    href="https://github.com/Kenzie-Academy-Brasil-Developers/Create-a-new-repository-from-kenzie-burguer-v2-template-guscarraro"
                   >
                     Repositorio GitHub!
                   </a>
