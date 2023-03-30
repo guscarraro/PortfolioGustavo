@@ -174,7 +174,7 @@ function App() {
                   </p>
                   <a
                     target="_blank"
-                    href="react-entrega-template-hamburgueria-da-kenzie-guscar-en600kv18.vercel.app"
+                    href="https://react-entrega-template-hamburgueria-da-kenzie-guscar-en600kv18.vercel.app/"
                   >
                     Acesse o site aqui!
                   </a>
