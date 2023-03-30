@@ -3,7 +3,7 @@ import "animate.css";
 import homeyou from "./assets/HomeYou.png";
 import HAMBUGUERIA from "./assets/BurguerKenzie.png";
 import NUKENZIE from "./assets/NuKenzie.png";
-import git1 from "./assets/icons8-github-128 (1).png";
+import git1 from "./assets/git.png";
 import WHATS from "./assets/zap1.png";
 import linkd1 from "./assets/icons8-linkedin-128.png";
 import linkd2 from "./assets/LI2.png";
