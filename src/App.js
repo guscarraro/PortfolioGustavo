@@ -50,6 +50,23 @@ export const ContainerGeral = styled.div`
     border-radius: 20px;
     opacity: 0.9;
   }
+  @media (max-width: 768px) {
+    width: 80%;
+
+    .NomeCity {
+      margin-top: 5%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+      background-color: black;
+      border-radius: 20px;
+      opacity: 0.9;
+      h1 {
+        font-size: smaller;
+      }
+    }
+  }
 `;
 export const StyledDivDescription = styled.div`
   margin-top: 5%;
@@ -119,6 +136,9 @@ export const StyledSectionContainer = styled.section`
   height: 100vh;
   position: relative;
   background-size: 100% 100%;
+  @media (max-width: 768px) {
+    align-items: flex-end;
+  }
 `;
 export const StyledSection2 = styled.section`
   display: flex;
@@ -148,6 +168,13 @@ export const SectionSkill = styled.section`
   position: relative;
   background-size: 100% 100%;
   justify-content: center;
+  @media (max-width: 768px) {
+    align-items: flex-end;
+    height: auto;
+    div {
+      margin-right: 5%;
+    }
+  }
   div {
     display: flex;
     flex-direction: column;
@@ -170,9 +197,112 @@ export const SectionSkill = styled.section`
     border-radius: 20px;
     justify-content: space-around;
     align-items: center;
+    @media (max-width: 768px) {
+      .nameSkill {
+        font-size: small;
+      }
+      display: flex;
+      max-width: 70%;
+      gap: 5%;
+      flex-flow: column wrap;
+      align-content: center;
+      -webkit-box-align: stretch;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+
+      .ReactIMG:hover {
+        background-image: url(${react1});
+      }
+      .CIMG {
+        background-image: url(${C1});
+        width: 50px;
+        height: 50px;
+        position: relative;
+        background-size: 100% 100%;
+      }
+      .CIMG:hover {
+        background-image: url(${C2});
+        width: 50px;
+        height: 50px;
+        position: relative;
+        background-size: 100% 100%;
+      }
+      .CSSIMG {
+        background-image: url(${CSS1});
+        /* background-color: black; */
+        /* color: ; */
+        width: 50px;
+        height: 50px;
+        position: relative;
+        background-size: 100% 100%;
+      }
+      .CSSIMG:hover {
+        background-image: url(${CSS2});
+        width: 50px;
+        height: 50px;
+        position: relative;
+        background-size: 100% 100%;
+      }
+      .JAVAIMG {
+        background-image: url(${JAVA1});
+        /* background-color: black; */
+        /* color: ; */
+        width: 50px;
+        height: 50px;
+        position: relative;
+        background-size: 100% 100%;
+      }
+      .JAVAIMG:hover {
+        background-image: url(${JAVA2});
+        width: 50px;
+        height: 50px;
+        position: relative;
+        background-size: 100% 100%;
+      }
+
+      .ReactIMG {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        background-size: 100% 100%;
+      }
+
+      .JSIMG {
+        background-image: url(${JS1});
+        /* background-color: black; */
+        /* color: ; */
+        width: 50px;
+        height: 50px;
+        position: relative;
+        background-size: 100% 100%;
+      }
+      .JSIMG:hover {
+        background-image: url(${JS2});
+      }
+      .HTML5IMG {
+        background-image: url(${HTML});
+        width: 50px;
+        height: 50px;
+        position: relative;
+        background-size: 100% 100%;
+      }
+      .HTML5IMG:hover {
+        background-image: url(${HTML2});
+      }
+    }
+  }
+  .fotoSkill {
+    margin: 0;
+    padding: 0;
   }
   li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     list-style: none;
+
     img {
       width: 90px;
       height: 90px;
@@ -187,6 +317,17 @@ export const SectionSkill = styled.section`
 
     .NODEIMG:hover {
       background-image: url(${node2});
+    }
+    @media (max-width: 768px) {
+      .NODEIMG {
+        width: 50px;
+        height: 50px;
+      }
+
+      .NODEIMG:hover {
+        width: 50px;
+        height: 50px;
+      }
     }
     .ReactIMG:hover {
       background-image: url(${react1});
@@ -205,6 +346,17 @@ export const SectionSkill = styled.section`
       position: relative;
       background-size: 100% 100%;
     }
+    @media (max-width: 768px) {
+      .CIMG {
+        width: 50px;
+        height: 50px;
+      }
+
+      .CIMG:hover {
+        width: 50px;
+        height: 50px;
+      }
+    }
     .CSSIMG {
       background-image: url(${CSS1});
       /* background-color: black; */
@@ -221,6 +373,17 @@ export const SectionSkill = styled.section`
       position: relative;
       background-size: 100% 100%;
     }
+    @media (max-width: 768px) {
+      .CSSIMG {
+        width: 50px;
+        height: 50px;
+      }
+
+      .CSSIMG:hover {
+        width: 50px;
+        height: 50px;
+      }
+    }
     .JAVAIMG {
       background-image: url(${JAVA1});
       /* background-color: black; */
@@ -236,6 +399,17 @@ export const SectionSkill = styled.section`
       height: 90px;
       position: relative;
       background-size: 100% 100%;
+    }
+    @media (max-width: 768px) {
+      .JAVAIMG {
+        width: 50px;
+        height: 50px;
+      }
+
+      .JAVAIMG:hover {
+        width: 50px;
+        height: 50px;
+      }
     }
     /* .SQL {
       background-image: url("../../../src/assets/icons8-mysql-100.png.png");
@@ -285,6 +459,11 @@ export const SectionSkill = styled.section`
   .HTML5IMG:hover {
     background-image: url(${HTML2});
   }
+  h3 {
+    @media (max-width: 768px) {
+      font-size: smaller;
+    }
+  }
 `;
 export const StyledWhats = styled.a`
   /* background-color: red; */
@@ -315,6 +494,9 @@ export const StyledProject = styled.div`
   width: 70%;
   border-radius: 20px;
   opacity: 0.9;
+  @media (max-width: 768px) {
+    margin-top: 15%;
+  }
 `;
 // export const StyledSectionCompetencias = styled.main`
 //   width: 70%;
@@ -396,6 +578,56 @@ export const StyledHeader = styled.header`
     width: 40px;
     height: 40px;
   }
+  @media (max-width: 768px) {
+    height: 40%;
+    width: 70px;
+    border-radius: 20px;
+    padding: 0;
+    color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.8;
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+    img {
+      width: 50px;
+      height: 50px;
+    }
+    .fake {
+      width: 40px;
+      height: 40px;
+    }
+    .fake:hover {
+      /* background-image: url("../../../src/assets/icons8-github-128 (3).png"); */
+      width: 40px;
+      height: 40px;
+    }
+    .link {
+      width: 40px;
+      height: 40px;
+    }
+    .link:hover {
+      background-image: url(${linkd2});
+      width: 40px;
+      height: 40px;
+    }
+    .whats {
+      width: 30px;
+      height: 30px;
+    }
+    .whats:hover {
+      background-image: url(${WHATS});
+      width: 30px;
+      height: 30px;
+    }
+  }
 `;
 export const StyledDivCards = styled.div`
   width: 100%;
@@ -405,6 +637,40 @@ export const StyledDivCards = styled.div`
   margin-top: 75px;
   padding: 0;
   ul {
+    @media (max-width: 768px) {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      overflow: auto;
+      position: absolute;
+      max-height: 400px;
+      width: 270px;
+      flex-wrap: wrap;
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 255, 255, 0.5);
+      }
+      li {
+        width: 150px;
+      }
+    }
+
     padding: 0;
     position: absolute;
     display: flex;

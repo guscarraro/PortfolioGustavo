@@ -126,28 +126,35 @@ function App() {
             </StyledSectionCompetencias> */}
             <ul className="animate__animated animate__lightSpeedInLeft">
               <li>
-                <p className="ReactIMG"></p>
+                <p className="nameSkill">React</p>
+                <p className="ReactIMG fotoSkill"></p>
               </li>
               <li>
-                <p className="JSIMG"></p>
+                <p className="nameSkill">JavaScript</p>
+                <p className="JSIMG fotoSkill"></p>
               </li>
               {/* <li>
                 <p className="SQL"></p>
               </li> */}
               <li>
-                <p className="HTML5IMG"></p>
+                <p className="nameSkill">HTML5</p>
+                <p className="HTML5IMG fotoSkill"></p>
               </li>
               <li>
-                <p className="NODEIMG"></p>
+                <p className="nameSkill">NODE.JS</p>
+                <p className="NODEIMG fotoSkill"></p>
               </li>
               <li>
-                <p className="CIMG"></p>
+                <p className="nameSkill">C</p>
+                <p className="CIMG fotoSkill"></p>
               </li>
               <li>
-                <p className="JAVAIMG"></p>
+                <p className="nameSkill">JAVA</p>
+                <p className="JAVAIMG fotoSkill"></p>
               </li>
               <li>
-                <p className="CSSIMG"></p>
+                <p className="nameSkill">CSS3</p>
+                <p className="CSSIMG fotoSkill"></p>
               </li>
             </ul>
           </div>
