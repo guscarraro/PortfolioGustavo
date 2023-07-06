@@ -45,7 +45,6 @@ function App() {
             alt=""
           />
           <p className="animate__animated animate__lightSpeedInLeft">Gustavo</p>
-
           <StyledDivPessoal className="animate__animated animate__lightSpeedInLeft">
             <StyledGitHub
               className="fake"
