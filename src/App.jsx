@@ -59,7 +59,7 @@ function App() {
             ></StyledLinkedin>
             <StyledWhats
               className="whats"
-              href="https://wa.me/+5541991627359"
+              href="https://wa.me/+5541991627369"
               target="_blank"
             ></StyledWhats>
           </StyledDivPessoal>
